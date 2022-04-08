@@ -23,6 +23,6 @@ export class AuthGuardModule implements CanActivate {
     | Observable<boolean | UrlTree>
     | Promise<boolean | UrlTree> {
     console.log('This is a test');
-    return false;
+    return true;
   }
 }
